@@ -1,0 +1,80 @@
+.canvasDiv{
+  text-align: center;
+}
+
+
+body{
+        background-image: url('images/backgroundimage2.jpg');
+        background-size: cover;
+        background-position:center;
+        background-size:fill;
+        background-repeat:no-repeat;
+        position:center;
+
+    }
+
+.instructions{
+    color: rgb(4, 112, 126);
+    font-family: Assistant;
+
+}
+h3,h4{
+  margin: 0;
+}
+
+.highScores{
+  position: absolute;
+  right: 200px;
+  top: 120px;
+  color:  rgb(4, 112, 126);
+  display: none;
+}
+
+button{
+  display: block;
+  width: 60px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #feb236;
+  border-color:  #feb236;
+  font-family: Arvo;
+  cursor: pointer;
+}
+#highscore{
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+#reset{
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
+#mute{
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+button:hover{
+  background-color: #ff7b25;
+}
+
+.messageDiv{
+  display : none;
+  text-align: center;
+  position: relative;
+  top :300px;
+  font-size: 20px;
+  font-family: Arvo;
+  color: #FF6347 ;
+}
+
+/* .playerScore {
+  display: block;
+  position: absolute;
+  top: 80px;
+  right: 200px;
+  font-family: Assistant;
+    color: rgb(4, 112, 126);
+} */
